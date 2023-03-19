@@ -1,0 +1,129 @@
+* {
+  margin : 0;
+  padding: 0;
+}
+
+
+
+.search-bar {
+  width: 60%;
+  outline: none !important;
+}
+
+input::placeholder {
+  font-size: 1.3rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-icon  {
+  font-size: 5rem !important;
+}
+
+.search-input {
+  font-size: 1.3rem;
+}
+
+.query-container {
+  width: 70%;
+  margin-top: 6rem !important;
+}
+
+.query-text {
+  width: 75% !important;
+}
+
+.query-text-main {
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.query-subtext-main {
+  color: gray;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.query-inner-container {
+  cursor: pointer;
+}
+
+.faq-add-input::placeholder {
+  font-size: 0.9rem !important;
+}
+
+.faq-add-container {
+  width: 30% !important;
+}
+
+@media only screen and (min-width: 777px) {
+  .search-bar {
+    width: 50% !important;
+  }
+  .faq-add-container {
+    width: 45% !important;
+  }
+}
+
+@media only screen and (max-width: 777px) {
+  .faq-add-container {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 958px) {
+  .search-bar {
+    width: 40% !important;
+  }
+  .faq-add-container {
+    width: 30% !important;
+  }
+}
+
+@media only screen and (max-width: 640px) and (min-width : 450px) {
+  .faq-add-container {
+    width: 60% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .faq-text {
+    font-size: 2rem !important;
+  }
+  .faq-abbr-text {
+    font-size: 0.95rem !important;
+  }
+  .faq-subtext {
+    font-size: 1.3rem !important;
+  }
+  .search-bar {
+    width: 70% !important;
+  }
+  input::placeholder {
+    font-size: 1rem;
+  }
+  .search-input {
+    font-size: 1rem !important;
+  }
+  .query-container {
+    margin-top: 4rem !important;
+  }
+  .query-text-main {
+    font-weight: 500;
+    font-size: 0.95rem !important;
+    font-family: 'Poppins', sans-serif;
+  }
+  .faq-add-container {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width : 330px) {
+  .search-bar {
+    width: 80% !important;
+  }
+}
